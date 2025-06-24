@@ -11,8 +11,8 @@
 
             <div class="flex gap-3 flex-1 justify-end">
                 <i @click="ToggleModal"
-                    class="fa-solid fa-circle-info text-xl hover:text-weather-secondary duration-200 cursor-pointer"></i>
-                <i class="fa-solid fa-plus text-xl hover:text-weather-secondary duration-200 cursor-pointer"></i>
+                    class="fa-solid fa-circle-info text-md hover:text-weather-secondary duration-200 cursor-pointer"></i>
+                <i class="fa-solid fa-plus text-md hover:text-weather-secondary duration-200 cursor-pointer"></i>
             </div>
 
             <BaseModal :modalActive="modalActiveOrNot" @close-modal="ToggleModal">

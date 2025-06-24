@@ -1,6 +1,6 @@
 <template>
 
-<h1>hello world</h1>
+<h1>HomeView</h1>
 
 </template>
 
