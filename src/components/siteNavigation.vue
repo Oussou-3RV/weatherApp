@@ -3,7 +3,7 @@
         <nav class="container flex flex-col sm:flex-row items-center text-white
             py-6 gap-4">
             <RouterLink :to="{ name: 'home' }">
-                <div class="flex items-center gap-3 flex-1">
+                <div class="flex gap-3 flex-1 ">
                     <i class="fa-solid fa-sun text-xl"></i>
                     <p class="text-xl">The Local Weather</p>
                 </div>
@@ -11,7 +11,8 @@
 
             <div class="flex gap-3 flex-1 justify-end">
                 <i @click="ToggleModal"
-                    class="fa-solid fa-circle-info text-md hover:text-weather-secondary duration-200 cursor-pointer"></i>
+                    class="fa-solid fa-circle-info text-md hover:text-weather-secondary duration-200 cursor-pointer">
+                </i>
                 <i class="fa-solid fa-plus text-md hover:text-weather-secondary duration-200 cursor-pointer"></i>
             </div>
 
